@@ -27,7 +27,7 @@ services:
         environment:
             - WEB_DOCUMENT_ROOT=/app/public
         ports:
-            - "8090:80"
+            - "80:80"
         volumes:
             - ./:/app:rw
         networks:
